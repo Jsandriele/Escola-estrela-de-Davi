@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.container-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    ;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    height: 120px;
+}
+
+#matricula {
+    width: 150px;
+    height: 45px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-right: 40px;
+    background-color: #F24405;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.navlinks {
+    width: 468px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.navlinks ul{
+    background-color: transparent;
+}
+.navlinks ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #460AFC;
+
+}
+.nav_logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.nav_logo img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+#login {
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-right: 120px;
+    background-color: #ffffff;
+    color: blue;
+}
